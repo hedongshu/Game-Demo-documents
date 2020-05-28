@@ -1,0 +1,38 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+    "eui.Panel": "resource/eui_skins/PanelSkin.exml",
+    "eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+    "eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
+    "GameScene": "resource/eui_skins/GameScene.exml",
+    "OverScene": "resource/eui_skins/OverScene.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/eui_skins/GameScene.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameSceneSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" >\n\t<w:Config id=\"16285bc0b41\" ></w:Config>\n\t<e:Image id=\"bg1\" source=\"背景_png\"  width=\"640\" height=\"1136\"/>\n\t<e:Image id=\"bg2\" source=\"背景_png\"  width=\"640\" height=\"1136\" y=\"-1136\"/>\n\t<e:Image source=\"背景光晕_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Group id=\"group_enemyPlanes\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Group id=\"group_UI\" x=\"14\" y=\"25\">\n\t\t<e:Rect id=\"blood_bg\" width=\"200\" height=\"32\" x=\"71\" y=\"0\" ellipseWidth=\"20\" ellipseHeight=\"20\" anchorOffsetX=\"0\" anchorOffsetY=\"0\" fillColor=\"0xffffff\"/>\n\t\t<e:Rect id=\"blood\" width=\"200\" height=\"32\" x=\"71\" y=\"0\" ellipseWidth=\"20\" ellipseHeight=\"20\" anchorOffsetX=\"0\" anchorOffsetY=\"0\" fillColor=\"0xff7272\"/>\n\t\t<e:Label text=\"得分\" x=\"426\" y=\"0\" textColor=\"0x000000\"/>\n\t\t<e:Label id=\"score\" text=\"0\" x=\"512.67\" y=\"0\" textColor=\"0x000000\" anchorOffsetX=\"0\" width=\"50.33\" textAlign=\"center\"/>\n\t\t<e:Label text=\"机损\" x=\"0\" y=\"0\" textColor=\"0x000000\"/>\n\t</e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/OverScene.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"OverSceneSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" >\n\t<w:Config id=\"16285cdbec1\" ></w:Config>\n\t<e:Image source=\"背景4_画板 1_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image source=\"云_画板 1_png\" x=\"143.63\" y=\"348.52\" anchorOffsetX=\"0\" width=\"440.92\" anchorOffsetY=\"0\" height=\"217.21\" scaleX=\"0.8\" scaleY=\"0.8\"/>\n\t<e:Image source=\"分享好友_画板 1_png\" x=\"468.5\" y=\"0\" anchorOffsetX=\"0\" width=\"151.28\" anchorOffsetY=\"0\" height=\"122\"/>\n\t<e:Image source=\"本次得分_画板 1_png\" x=\"186\" y=\"282\" scaleX=\"0.8\" scaleY=\"0.8\"/>\n\t<e:Label id=\"lab_score\" text=\"163\" x=\"221.5\" y=\"393.4\" fontFamily=\"Helvetica\" anchorOffsetX=\"0\" width=\"197\" anchorOffsetY=\"0\" height=\"84\" textAlign=\"center\" verticalAlign=\"middle\" size=\"80\"/>\n\t<e:Button id=\"btn_restart\" label=\"\" x=\"201.2\" y=\"622.4\" scaleX=\"0.8\" scaleY=\"0.8\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"再玩一次_画板 1_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Button id=\"btn_us\" label=\"\" x=\"196\" y=\"756\" scaleX=\"0.8\" scaleY=\"0.8\">\n\t\t<e:skinName>\n\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"关注我们_画板 1_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Image source=\"活动规则_画板 1_png\" x=\"34.26\" y=\"10\" anchorOffsetX=\"0\" width=\"151.74\" anchorOffsetY=\"0\" height=\"112\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/StartScene.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"StartSceneSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" >\n\t<w:Config id=\"16285b37170\" ></w:Config>\n\t<e:Image source=\"背景1_画板 1_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image source=\"飞机大战_画板 1_png\" x=\"62.24\" y=\"285.66\" rotation=\"359.93\" anchorOffsetX=\"0\" width=\"515.3\" anchorOffsetY=\"0\" height=\"183.17\"/>\n\t<e:Image id=\"btn_rule\" source=\"活动规则_画板 1_png\" x=\"2.89\" y=\"0\" anchorOffsetX=\"0\" width=\"147.16\" anchorOffsetY=\"0\" height=\"108.62\"/>\n\t<e:Button id=\"btn_start\" label=\"\" x=\"160.5\" y=\"881.18\" anchorOffsetX=\"0\" width=\"319\" anchorOffsetY=\"0\" height=\"93.82\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"开始_画板 1_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/TipScene.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"TipSceneSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" >\n\t<w:Config id=\"16285b87da5\" ></w:Config>\n\t<e:Image source=\"背景2_画板 1_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image source=\"玩法说明_画板 1_png\" x=\"220.5\" y=\"388.5\"/>\n</e:Skin>"
+    }
+  ]
+}

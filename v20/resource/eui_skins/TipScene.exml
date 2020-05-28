@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16285b87da5" ></w:Config>
+	<e:Image source="背景2_画板 1_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="玩法说明_画板 1_png" x="220.5" y="388.5"/>
+</e:Skin>

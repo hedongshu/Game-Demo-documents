@@ -1,0 +1,134 @@
+{
+	"groups": [
+		{
+			"keys": "背景1_画板 1_png,飞机大战_画板 1_png,开始_画板 1_png,背景2_画板 1_png,玩法说明_画板 1_png,背景_png,背景光晕_png,本次得分_画板 1_png,得分_画板 1_png,plane0_png,plane1_d_png,plane1_png,plane2_png,plane3_d_png,plane3_png,5_画板 1_png,背景4_画板 1_png,分享好友_画板 1_png,关注我们_画板 1_png,活动规则_画板 1_png,云_画板 1_png,再玩一次_画板 1_png,活动规则_png,plane2_d_png",
+			"name": "preload"
+		},
+		{
+			"keys": "背景1_画板 1_png",
+			"name": "loadUI"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/画面1/开始_画板 1.png",
+			"type": "image",
+			"name": "开始_画板 1_png"
+		},
+		{
+			"url": "assets/画面1/背景1_画板 1.png",
+			"type": "image",
+			"name": "背景1_画板 1_png"
+		},
+		{
+			"url": "assets/画面1/飞机大战_画板 1.png",
+			"type": "image",
+			"name": "飞机大战_画板 1_png"
+		},
+		{
+			"url": "assets/画面2/玩法说明_画板 1.png",
+			"type": "image",
+			"name": "玩法说明_画板 1_png"
+		},
+		{
+			"url": "assets/画面2/背景2_画板 1.png",
+			"type": "image",
+			"name": "背景2_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/5_画板 1.png",
+			"type": "image",
+			"name": "5_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/云_画板 1.png",
+			"type": "image",
+			"name": "云_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/关注我们_画板 1.png",
+			"type": "image",
+			"name": "关注我们_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/再玩一次_画板 1.png",
+			"type": "image",
+			"name": "再玩一次_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/分享好友_画板 1.png",
+			"type": "image",
+			"name": "分享好友_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/活动规则_画板 1.png",
+			"type": "image",
+			"name": "活动规则_画板 1_png"
+		},
+		{
+			"url": "assets/画面4/背景4_画板 1.png",
+			"type": "image",
+			"name": "背景4_画板 1_png"
+		},
+		{
+			"url": "assets/画面3/plane0.png",
+			"type": "image",
+			"name": "plane0_png"
+		},
+		{
+			"url": "assets/画面3/plane1.png",
+			"type": "image",
+			"name": "plane1_png"
+		},
+		{
+			"url": "assets/画面3/plane1_d.png",
+			"type": "image",
+			"name": "plane1_d_png"
+		},
+		{
+			"url": "assets/画面3/plane2.png",
+			"type": "image",
+			"name": "plane2_png"
+		},
+		{
+			"url": "assets/画面3/plane3.png",
+			"type": "image",
+			"name": "plane3_png"
+		},
+		{
+			"url": "assets/画面3/plane3_d.png",
+			"type": "image",
+			"name": "plane3_d_png"
+		},
+		{
+			"url": "assets/画面3/得分_画板 1.png",
+			"type": "image",
+			"name": "得分_画板 1_png"
+		},
+		{
+			"url": "assets/画面3/本次得分_画板 1.png",
+			"type": "image",
+			"name": "本次得分_画板 1_png"
+		},
+		{
+			"url": "assets/画面3/背景.png",
+			"type": "image",
+			"name": "背景_png"
+		},
+		{
+			"url": "assets/画面3/背景光晕.png",
+			"type": "image",
+			"name": "背景光晕_png"
+		},
+		{
+			"url": "assets/画面1/活动规则.png",
+			"type": "image",
+			"name": "活动规则_png"
+		},
+		{
+			"url": "assets/画面3/plane2_d.png",
+			"type": "image",
+			"name": "plane2_d_png"
+		}
+	]
+}
